@@ -15,6 +15,21 @@ public class Staff {
         this.clef = clef;
     }
 
+    public void printNotes() {
+        // TODO: Add logic to print notes;
+        System.out.println("     ");
+        System.out.println("-----");
+        System.out.println("     ");
+        System.out.println("-----");
+        System.out.println("     ");
+        System.out.println("-----");
+        System.out.println("     ");
+        System.out.println("-----");
+        System.out.println("     ");
+        System.out.println("-----");
+        System.out.println("     ");
+    }
+
     public void addNote(MusicalNote note) {
         notes.add(note);
     }
