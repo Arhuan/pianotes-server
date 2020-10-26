@@ -82,7 +82,7 @@ public class Staff {
                     line7 = line7.concat("-----");
                     line8 = line8.concat("     ");
                     line9 = line9.concat("-----");
-                    line10 = line10.concat("     ");
+                    line10 = line10.concat("  O  ");
                     break;
                 case E:
                     line0 = line0.concat("     ");
@@ -94,7 +94,7 @@ public class Staff {
                     line6 = line6.concat("     ");
                     line7 = line7.concat("-----");
                     line8 = line8.concat("     ");
-                    line9 = line9.concat("-----");
+                    line9 = line9.concat("--O--");
                     line10 = line10.concat("     ");
                     break;
                 case F:
@@ -106,12 +106,12 @@ public class Staff {
                     line5 = line5.concat("-----");
                     line6 = line6.concat("     ");
                     line7 = line7.concat("-----");
-                    line8 = line8.concat("     ");
+                    line8 = line8.concat("  O  ");
                     line9 = line9.concat("-----");
                     line10 = line10.concat("     ");
                     break;
                 case G:
-                    line0 = line0.concat("     ");
+                    line0 = line0.concat("  O  ");
                     line1 = line1.concat("-----");
                     line2 = line2.concat("     ");
                     line3 = line3.concat("-----");
