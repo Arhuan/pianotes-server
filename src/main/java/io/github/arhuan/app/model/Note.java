@@ -1,4 +1,4 @@
-package io.github.arhuan.app.enums;
+package io.github.arhuan.app.model;
 
 import java.util.Arrays;
 import java.util.Collections;
