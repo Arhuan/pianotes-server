@@ -2,7 +2,9 @@ package io.github.arhuan.app;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 
+@EnableJpaRepositories(basePackages = "io.github.arhuan.app.repository")
 @SpringBootApplication
 public class Application {
 
