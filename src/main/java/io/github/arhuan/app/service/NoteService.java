@@ -21,7 +21,7 @@ public class NoteService {
             NotesDTO dto = new NotesDTO();
             dto.setNote(newNote.getNote());
             dto.setClef(newNote.getClef());
-            dto.setOctave(4);
+            dto.setOctave(newNote.getOctave());
 
             notes.add(dto);
         }

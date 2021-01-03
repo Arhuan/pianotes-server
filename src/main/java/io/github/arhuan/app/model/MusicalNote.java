@@ -16,6 +16,12 @@ public class MusicalNote {
 
         this.note = Note.randomNote();
         this.clef = Clef.randomClef();
-        this.octave = random.nextInt(9);
+        if (this.clef.equals(Clef.BASS)) {
+            // only pick notes from octave 2 to 3 for bass notes
+            this.octave = random.nextInt(2) + 2;
+        } else {
+            // only pick notes from octave 4 to 6 for treble notes
+            this.octave = random.nextInt(3) + 4;
+        }
     }
 }
